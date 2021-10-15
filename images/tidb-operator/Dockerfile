@@ -1,4 +1,4 @@
-FROM alpine:3.10
+FROM alpine:latest
 
 RUN apk add tzdata --no-cache
 ADD bin/tidb-scheduler /usr/local/bin/tidb-scheduler
